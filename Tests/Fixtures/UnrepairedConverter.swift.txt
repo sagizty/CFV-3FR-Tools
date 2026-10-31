@@ -1,0 +1,119 @@
+// SPDX-License-Identifier: MIT
+import SwiftUI
+import AppKit
+import CoreImage
+import CoreImage.CIFilterBuiltins
+import ImageIO
+import UniformTypeIdentifiers
+
+private struct FileStamp: Equatable {
+    let size: Int64
+    let modified: Date
+}
+
+private struct ConversionResult {
+    let source: URL
+    let destination: URL
+    let sourceBytes: Int64
+    let outputBytes: Int64
+    let width: Int
+    let height: Int
+    let trashedOriginal: Bool
+    let trashWarning: String?
+}
+
+private enum ConversionError: LocalizedError {
+    case decodeFailed
+    case invalidDimensions
+    case missingColorSpace
+    case outputInvalid
+
+    var errorDescription: String? {
+        switch self {
+        case .decodeFailed: return "macOS 无法解码此 3FR 的完整 RAW 图像。"
+        case .invalidDimensions: return "RAW 图像尺寸无效。"
+        case .missingColorSpace: return "无法创建输出色彩空间。"
+        case .outputInvalid: return "写入的 HEIC 文件未通过尺寸与格式核验。"
+        }
+    }
+}
+
+private enum Converter {
+    static func convert(_ source: URL, to outputFolder: URL, quality: Double, useP3: Bool, trashOriginal: Bool) throws -> ConversionResult {
+        let manager = FileManager.default
+        let attributes = try manager.attributesOfItem(atPath: source.path)
+        let inputBytes = (attributes[.size] as? NSNumber)?.int64Value ?? 0
+        try manager.createDirectory(at: outputFolder, withIntermediateDirectories: true)
+
+        guard let raw = CIRAWFilter(imageURL: source) else { throw ConversionError.decodeFailed }
+        raw.isDraftModeEnabled = false
+        guard let decoded = raw.outputImage else { throw ConversionError.decodeFailed }
+        var metadata = decoded.properties
+        if let imageSource = CGImageSourceCreateWithURL(source as CFURL, nil),
+           let sourceProperties = CGImageSourceCopyPropertiesAtIndex(imageSource, 0, nil) as? [String: Any] {
+            for key in [kCGImagePropertyTIFFDictionary, kCGImagePropertyExifDictionary,
+                        kCGImagePropertyGPSDictionary, kCGImagePropertyIPTCDictionary] {
+                if let value = sourceProperties[key as String] { metadata[key as String] = value }
+            }
+        }
+        let image = decoded.settingProperties(metadata)
+        let bounds = image.extent.integral
+        guard bounds.width > 0, bounds.height > 0, bounds.width.isFinite, bounds.height.isFinite else {
+            throw ConversionError.invalidDimensions
+        }
+        let width = Int(bounds.width)
+        let height = Int(bounds.height)
+        let colorSpaceName: CFString = useP3 ? CGColorSpace.displayP3 : CGColorSpace.sRGB
+        guard let colorSpace = CGColorSpace(name: colorSpaceName) else { throw ConversionError.missingColorSpace }
+
+        let destination = outputFolder.appendingPathComponent(source.deletingPathExtension().lastPathComponent).appendingPathExtension("heic")
+        let temporary = outputFolder.appendingPathComponent(".\(UUID().uuidString).heic")
+        let context = CIContext(options: [
+            .workingColorSpace: colorSpace,
+            .workingFormat: CIFormat.RGBAh,
+            .cacheIntermediates: false
+        ])
+        let options: [CIImageRepresentationOption: Any] = [
+            CIImageRepresentationOption(rawValue: kCGImageDestinationLossyCompressionQuality as String): quality
+        ]
+        defer { try? manager.removeItem(at: temporary) }
+        try context.writeHEIF10Representation(of: image, to: temporary, colorSpace: colorSpace, options: options)
+
+        guard let check = CGImageSourceCreateWithURL(temporary as CFURL, nil),
+              let type = CGImageSourceGetType(check),
+              UTType(type as String)?.conforms(to: .heic) == true,
+              let properties = CGImageSourceCopyPropertiesAtIndex(check, 0, nil) as? [CFString: Any],
+              (properties[kCGImagePropertyPixelWidth] as? Int) == width,
+              (properties[kCGImagePropertyPixelHeight] as? Int) == height,
+              (properties[kCGImagePropertyDepth] as? Int ?? 0) >= 10,
+              let profile = properties[kCGImagePropertyProfileName] as? String,
+              profile.localizedCaseInsensitiveContains(useP3 ? "P3" : "sRGB") else {
+            throw ConversionError.outputInvalid
+        }
+        let outputBytes = ((try manager.attributesOfItem(atPath: temporary.path))[.size] as? NSNumber)?.int64Value ?? 0
+        guard outputBytes > 0 else { throw ConversionError.outputInvalid }
+
+        if manager.fileExists(atPath: destination.path) { throw CocoaError(.fileWriteFileExists) }
+        try manager.moveItem(at: temporary, to: destination)
+        if let created = attributes[.creationDate] as? Date {
+            try? manager.setAttributes([.creationDate: created], ofItemAtPath: destination.path)
+        }
+        if let modified = attributes[.modificationDate] as? Date {
+            try? manager.setAttributes([.modificationDate: modified], ofItemAtPath: destination.path)
+        }
+        var trashedOriginal = false
+        var trashWarning: String?
+        if trashOriginal {
+            do {
+                try manager.trashItem(at: source, resultingItemURL: nil)
+                trashedOriginal = true
+            } catch {
+                trashWarning = "HEIC 已保存，但原始 3FR 未能移入废纸篓：\(error.localizedDescription)"
+            }
+        }
+        return ConversionResult(source: source, destination: destination, sourceBytes: inputBytes,
+                                outputBytes: outputBytes, width: width, height: height,
+                                trashedOriginal: trashedOriginal, trashWarning: trashWarning)
+    }
+}
+
