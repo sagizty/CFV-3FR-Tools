@@ -1,0 +1,245 @@
+{
+  "collections": [
+    {
+      "collection": "Fuji style recreations (34)",
+      "status": "Provided by the maintainer as open-source third-party LUTs",
+      "upstreamURL": null,
+      "upstreamLicenseIdentifier": null,
+      "sourceCopyrightMetadata": "浮光未央",
+      "sourceContactMetadata": "咸鱼：浮光未央素材研究所",
+      "generator": "John R. Ellis Export LUT 1.24.0",
+      "inputEncoding": "Rec709gamma2.4.icc",
+      "modification": "Removed the exporting computer absolute path from the color-profile comment. All numeric LUT data and other original comments retained.",
+      "files": [
+        {
+          "file": "Fuji-Recreation/fuji-recreation-1076c16ca918.cube",
+          "originalFilename": "Fuji 160C .cube",
+          "originalSHA256": "1076c16ca918420b1d746d6716ff35e5e5a858c02c2b567159e158f266048fa6",
+          "bundledSHA256": "021fa81250bc719ae709d752b0057587fbc9fa1fd47858e667c72bee34c8243f"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-a22d46cba7b6.cube",
+          "originalFilename": "Fuji 400HH.cube",
+          "originalSHA256": "a22d46cba7b61d14c8b65d7c4447f84e845a7e6889519fec5c0354718a55ce9b",
+          "bundledSHA256": "5cc81239f71344ac219558ebd3139276fccb0ab7d8e9474e12a594196d2b7058"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-7b0f9a9f21d9.cube",
+          "originalFilename": "Fuji 400HS.cube",
+          "originalSHA256": "7b0f9a9f21d99bcedb5b196d430e4a55c60cc1471207eb2b935dff847d529c57",
+          "bundledSHA256": "114ee3ed30c2a4586af86e335146202f81a1d0d73f9429963daacd843dcf9c90"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-33c9241926c1.cube",
+          "originalFilename": "Fuji Agfa Vista 800.cube",
+          "originalSHA256": "33c9241926c16ae43a06e3af1be71931a1684471ca3262a1eb630deb6bd36e13",
+          "bundledSHA256": "a44eb1bd3f9b1699e06563b7488e5df74f3355b92a4093fe29f3922006b302b7"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-fe2ce190f2fc.cube",
+          "originalFilename": "Fuji Fortia SP.cube",
+          "originalSHA256": "fe2ce190f2fcf169852738ccd10815e9d378059e77dfdfc49a6619917d41b563",
+          "bundledSHA256": "6feb498b4382ff1cc29c11b3ed381d8833fce9a0ef968b21820259bdf95da15e"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-a6213cf52492.cube",
+          "originalFilename": "Fuji Fortia SP Balance Cool.cube",
+          "originalSHA256": "a6213cf524926b3d621415ac199a7447ca4a5dfc69745e8cc031106e84c6b65e",
+          "bundledSHA256": "3948fca994cdcc6daa10ef91048d18f4386c80b398487a46f03bd8041663aa5b"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-4b1bdf978f19.cube",
+          "originalFilename": "Fuji HP5 黑白.cube",
+          "originalSHA256": "4b1bdf978f19556d481fc13d540a4f86b0d692f18de62316ce2e3400df40b49d",
+          "bundledSHA256": "3523847dfcfe4088f927a2696fed4a8581df474e2b4edc0d9a4f187cf8bd960d"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-596848240427.cube",
+          "originalFilename": "Fuji PRO Neg.cube",
+          "originalSHA256": "5968482404275bfb3e0d209eb8e91861de0f6512ea94bd7dfbf4376566bba59e",
+          "bundledSHA256": "efcb1420a13d0d717bfde908ab0e0052f5bc94780df5000ab4873819f2cabb82"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-ac7a68c6a07e.cube",
+          "originalFilename": "Fuji Provia 400X.cube",
+          "originalSHA256": "ac7a68c6a07e129dda7dfe5dba439ab606c5f8d4582e17c881d24308dfcbf6a8",
+          "bundledSHA256": "74cda2f601e6977a6f77cacfa74e4fdb3e794a300c5a6aaff9b604d886af5b41"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-256a2e5dbde4.cube",
+          "originalFilename": "Fuji Provia Vibrant.cube",
+          "originalSHA256": "256a2e5dbde400ad411fb35a7372418751b63ed7974dadc8f754ba49ab28f189",
+          "bundledSHA256": "5ae5e813c2641cbcd16075ff4eef921be63ba2721ca8456e6f5ad0c53e42ca1d"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-157d890c0e93.cube",
+          "originalFilename": "Fuji Superia 100.cube",
+          "originalSHA256": "157d890c0e93e8459b4e94a8a0973592a6dd92c88be59ed0d0ba5f6633a4653b",
+          "bundledSHA256": "22e2f818dbabd2acb964d4920922a83a474592a6a9fd7893583ec09256fdca49"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-603a5a7b30f9.cube",
+          "originalFilename": "Fuji Superia 400.cube",
+          "originalSHA256": "603a5a7b30f95e34d261ec1db1e02e174779925fbb7946696c0760203799ba96",
+          "bundledSHA256": "37a7f297ea723276985ef6bc2df2763c796078d34e72e5cb849577cab395449a"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-9facf9cf30c7.cube",
+          "originalFilename": "Fuji Velvia 100.cube",
+          "originalSHA256": "9facf9cf30c759680f5dfa49d0d2cf44c5cff3357c7f28b702a7fea31abfee08",
+          "bundledSHA256": "06e19700eb6b39cd94b460647de5d64333b0a907036a973b4b8fcb6130fbc5e5"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-5f6c65cc9d4d.cube",
+          "originalFilename": "复古褐色｜Sepia.cube",
+          "originalSHA256": "5f6c65cc9d4deffa0b1c3b9cb2565545e60e34d3ef388ef6d25c9708736e2fde",
+          "bundledSHA256": "17a85da8986839e0ff72756eccd51ce25e3ab99c9281a4498d703fa522d04691"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-9126aa7a8684.cube",
+          "originalFilename": "大画幅色调｜Fuji GFX 100.cube",
+          "originalSHA256": "9126aa7a8684ab06357aafe562ddfe80c0c96f0441284ade9b16af2a4325407a",
+          "bundledSHA256": "0844a9bc306ae736b97723024ce3e289de0833872acc685a273aa3fd1bcbee34"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-3669e232880c.cube",
+          "originalFilename": "影院色彩｜Eterna (Cinema).cube",
+          "originalSHA256": "3669e232880c90d06b82794c7ff9bf39e4cd1d773e19900bab88c6e6765cf70e",
+          "bundledSHA256": "a68089919f44f350f6ba65d3ef9a00f93b14bfb4ae333a76bea0c2dc3b39567f"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-a4edfd429c9c.cube",
+          "originalFilename": " 怀旧负片｜Nostalgic Neg.cube",
+          "originalSHA256": "a4edfd429c9c339c7e92bb94f2050abe7ef59c6bab34df66bb375457a008f0a9",
+          "bundledSHA256": "f68d74466dd83edc129e36bd73e9ef4bac2207bf39b76cee884be136f72a09fe"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-8b4f06eaeca6.cube",
+          "originalFilename": "柔和肖像｜Pro Neg.Std.cube",
+          "originalSHA256": "8b4f06eaeca6785a89ae66fd96e0582e4e77aedf8a9a28c3373d26265c1a3edf",
+          "bundledSHA256": "b2339d31a82468d6f60b339f1299977254fdf580e0dce87d96cf838f0f7dd744"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-70c4cab057f3.cube",
+          "originalFilename": "柔和色彩｜Astia.cube",
+          "originalSHA256": "70c4cab057f3c4e945dd6d3aa6869c373dea954aede7b37a375dce488a882c3a",
+          "bundledSHA256": "ce83a917d584bccd41f2d66f52ad0a04a1c9541091f4ec3f9cf9376f4c79f926"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-dbdfeccfe8e8.cube",
+          "originalFilename": "标准肖像｜Pro Neg.Hi .cube",
+          "originalSHA256": "dbdfeccfe8e8d21f7d37364aa478c8bcab368fe5a4f3af18ec87a3e90f494da4",
+          "bundledSHA256": "6d712bb9f90746e6076ef8adfd87bc073b1a618fc2a52259d103f9fc1213b669"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-ec9c71020fe8.cube",
+          "originalFilename": "标准色彩｜Provia.Std.cube",
+          "originalSHA256": "ec9c71020fe829e85eec9c25a336491157fd8f95c281afb3e4519008bc1165d5",
+          "bundledSHA256": "ee6ef31b8f4b3515585a34ae56065fc4d4157b3c395450a49835d8bd6720e679"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-e94d931f12e9.cube",
+          "originalFilename": "标准黑白+红｜Mono+Red.cube",
+          "originalSHA256": "e94d931f12e97130c4af34e3f0803d2638d2d52a66e34e760579fa47d63e5bc2",
+          "bundledSHA256": "3a86d195423e0af299c967438b9863afa4fe8e6dda33616c85768b615cc887c2"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-b1d998192247.cube",
+          "originalFilename": "标准黑白+绿｜Mono+Green.cube",
+          "originalSHA256": "b1d998192247568dbcd7e812fa80ebc8779383a60fcb1c7affefdbb7e211c703",
+          "bundledSHA256": "6134d8c66b41afcb618c96dc4871c6e0c4a64c6afc8481c01d209b4e34c08c92"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-ee0a3821a8b5.cube",
+          "originalFilename": "标准黑白+黄｜Mono+Yellow.cube",
+          "originalSHA256": "ee0a3821a8b51795fc348c4b2d3046d6f0afa36fa08a1f37bafef60f995e7420",
+          "bundledSHA256": "01214e759c3e114049da4e541c17fc7e062811cb3d01614167b80a90e6fdd5ac"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-5149a2497160.cube",
+          "originalFilename": "标准黑白｜Monochrome.Std.cube",
+          "originalSHA256": "5149a249716080c88e903e4a482b47b8d37b6a737bbdce8ebf31f85a7fd412de",
+          "bundledSHA256": "600676e8cad8f2bb7fbc2557d38cb50b654a09c41ced8b2ace9fcf40053da21e"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-022632307398.cube",
+          "originalFilename": "漂白效果｜Eterna (Bleach).cube",
+          "originalSHA256": "022632307398a21594cf948651f9da7fa67ea41e0585f28725306eaaf000517d",
+          "bundledSHA256": "35c39ee463e7990445b71c2f0556ab8128322b6f4cf6c9b2672f7d2fee9ebf0f"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-14571aa7ea87.cube",
+          "originalFilename": "电影色调｜Eterna (LUTs+).cube",
+          "originalSHA256": "14571aa7ea878a9b1e548eb83d2ca6715574adff7cb3ea395f392c170971b844",
+          "bundledSHA256": "9027333e3c2673d55c8f0ec828fd5d27cfe442e46035639b059fd9994fe67444"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-00086379bcb0.cube",
+          "originalFilename": " 经典正片｜Classic Chrome.cube",
+          "originalSHA256": "00086379bcb0469581309eaf551706d2c8d2070fbaa6e5e99e2418e17eb51732",
+          "bundledSHA256": "ebd2655c2c44ea253a6dd557e7495a09963af502f01763d4f360fef8119bdd34"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-da223c870bcb.cube",
+          "originalFilename": " 经典负片｜Classic Neg.cube",
+          "originalSHA256": "da223c870bcb407a4e79951cc380c3c03e877016137421c37e91473cfb688b92",
+          "bundledSHA256": "f171b93a3e61aaa8aad5a64ecf5f75bac257b2df408849d86d0547d19a072f42"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-4c609f75265a.cube",
+          "originalFilename": "鲜艳色彩｜Velvia .cube",
+          "originalSHA256": "4c609f75265abd206241b9205c0c340782efd7a12636afd1a238de2d36fd0433",
+          "bundledSHA256": "c04137fab77108c395da731d4dc9b5601f0d1058fc21322c18b4652125f7012b"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-965af6fa55c6.cube",
+          "originalFilename": "黑白胶片+红｜Acros+Red.cube",
+          "originalSHA256": "965af6fa55c60bf5805911b71055860727852e8243fabff61f689beffc0f38ec",
+          "bundledSHA256": "869b894eb72bf0d197dd37c84e688e3c8a723bb8c823c8c8c4ec4f9e49d3959b"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-3cd7dc0a9300.cube",
+          "originalFilename": "黑白胶片+绿｜Acros+Green.cube",
+          "originalSHA256": "3cd7dc0a9300214c07086b55714a39088dad2fffa26d841c69deb881c2de3941",
+          "bundledSHA256": "4baa5fbbf87f17907f34a1974ccbf9a32a4fb5ed6e60855baa3416003990c779"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-e48207c5a770.cube",
+          "originalFilename": "黑白胶片+黄｜Acros+Yellow.cube",
+          "originalSHA256": "e48207c5a7700b878bc81d5d0f8df83886417e06ee6ee2b092a93ba95660590b",
+          "bundledSHA256": "76600c228df410faf0bb761a98464c3a99d2fa409c9bd3a910dd7a117338839d"
+        },
+        {
+          "file": "Fuji-Recreation/fuji-recreation-571c3ca439b2.cube",
+          "originalFilename": "黑白胶片｜Acros.Std.cube",
+          "originalSHA256": "571c3ca439b2130ad247c68c720306dd7d593e1932be96eb801e9d5cc2732318",
+          "bundledSHA256": "234f874e0eb0d922bab64b8ebf7f24c29d005f17e80effa5fa6bbb2fa4c5c4d6"
+        }
+      ]
+    },
+    {
+      "collection": "Kodak Chrome recreations — 1930s and 64 Adjusted",
+      "status": "Provided by the maintainer as open-source third-party LUTs",
+      "upstreamURL": null,
+      "upstreamLicenseIdentifier": null,
+      "sourceCopyrightMetadata": "和一盐原创预设",
+      "sourceContactMetadata": "小红书和一盐",
+      "generator": "colorizer.net",
+      "inputEncoding": "Not declared; sRGB is the configured assumption",
+      "files": [
+        {
+          "file": "Kodak-Chrome/kodak-chrome-a6e03bf10f65.cube",
+          "originalFilename": "Kodok 克罗姆 1930s.cube",
+          "originalSHA256": "a9204f54223292758b2b9e041cbaa55594186919871c6c9b3d89370d2d280a99",
+          "bundledSHA256": "a9204f54223292758b2b9e041cbaa55594186919871c6c9b3d89370d2d280a99"
+        },
+        {
+          "file": "Kodak-Chrome/kodak-chrome-e8d6106602ed.cube",
+          "originalFilename": "Kodok 克罗姆 64 调整.cube",
+          "originalSHA256": "20cc006ab2dbfff9bbccba5be1146e6143e8a9935731b0a61c790d420af57d73",
+          "bundledSHA256": "20cc006ab2dbfff9bbccba5be1146e6143e8a9935731b0a61c790d420af57d73"
+        }
+      ]
+    }
+  ]
+}

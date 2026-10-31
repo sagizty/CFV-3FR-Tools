@@ -1,0 +1,254 @@
+[
+  {
+    "id": "kodak-chrome-a6e03bf10f65",
+    "group": "Kodak 克罗姆系列",
+    "name": "Kodok 克罗姆 1930s",
+    "file": "Kodak-Chrome/kodak-chrome-a6e03bf10f65.cube",
+    "inputSpace": "sRGB"
+  },
+  {
+    "id": "kodak-chrome-e8d6106602ed",
+    "group": "Kodak 克罗姆系列",
+    "name": "Kodok 克罗姆 64 调整",
+    "file": "Kodak-Chrome/kodak-chrome-e8d6106602ed.cube",
+    "inputSpace": "sRGB"
+  },
+  {
+    "id": "fuji-recreation-1076c16ca918",
+    "group": "富士风格复现（34 款）",
+    "name": "Fuji 160C",
+    "file": "Fuji-Recreation/fuji-recreation-1076c16ca918.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-a22d46cba7b6",
+    "group": "富士风格复现（34 款）",
+    "name": "Fuji 400HH",
+    "file": "Fuji-Recreation/fuji-recreation-a22d46cba7b6.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-7b0f9a9f21d9",
+    "group": "富士风格复现（34 款）",
+    "name": "Fuji 400HS",
+    "file": "Fuji-Recreation/fuji-recreation-7b0f9a9f21d9.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-33c9241926c1",
+    "group": "富士风格复现（34 款）",
+    "name": "Fuji Agfa Vista 800",
+    "file": "Fuji-Recreation/fuji-recreation-33c9241926c1.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-fe2ce190f2fc",
+    "group": "富士风格复现（34 款）",
+    "name": "Fuji Fortia SP",
+    "file": "Fuji-Recreation/fuji-recreation-fe2ce190f2fc.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-a6213cf52492",
+    "group": "富士风格复现（34 款）",
+    "name": "Fuji Fortia SP Balance Cool",
+    "file": "Fuji-Recreation/fuji-recreation-a6213cf52492.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-4b1bdf978f19",
+    "group": "富士风格复现（34 款）",
+    "name": "Fuji HP5 黑白",
+    "file": "Fuji-Recreation/fuji-recreation-4b1bdf978f19.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-596848240427",
+    "group": "富士风格复现（34 款）",
+    "name": "Fuji PRO Neg",
+    "file": "Fuji-Recreation/fuji-recreation-596848240427.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-ac7a68c6a07e",
+    "group": "富士风格复现（34 款）",
+    "name": "Fuji Provia 400X",
+    "file": "Fuji-Recreation/fuji-recreation-ac7a68c6a07e.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-256a2e5dbde4",
+    "group": "富士风格复现（34 款）",
+    "name": "Fuji Provia Vibrant",
+    "file": "Fuji-Recreation/fuji-recreation-256a2e5dbde4.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-157d890c0e93",
+    "group": "富士风格复现（34 款）",
+    "name": "Fuji Superia 100",
+    "file": "Fuji-Recreation/fuji-recreation-157d890c0e93.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-603a5a7b30f9",
+    "group": "富士风格复现（34 款）",
+    "name": "Fuji Superia 400",
+    "file": "Fuji-Recreation/fuji-recreation-603a5a7b30f9.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-9facf9cf30c7",
+    "group": "富士风格复现（34 款）",
+    "name": "Fuji Velvia 100",
+    "file": "Fuji-Recreation/fuji-recreation-9facf9cf30c7.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-5f6c65cc9d4d",
+    "group": "富士风格复现（34 款）",
+    "name": "复古褐色｜Sepia",
+    "file": "Fuji-Recreation/fuji-recreation-5f6c65cc9d4d.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-9126aa7a8684",
+    "group": "富士风格复现（34 款）",
+    "name": "大画幅色调｜Fuji GFX 100",
+    "file": "Fuji-Recreation/fuji-recreation-9126aa7a8684.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-3669e232880c",
+    "group": "富士风格复现（34 款）",
+    "name": "影院色彩｜Eterna (Cinema)",
+    "file": "Fuji-Recreation/fuji-recreation-3669e232880c.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-a4edfd429c9c",
+    "group": "富士风格复现（34 款）",
+    "name": "怀旧负片｜Nostalgic Neg",
+    "file": "Fuji-Recreation/fuji-recreation-a4edfd429c9c.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-8b4f06eaeca6",
+    "group": "富士风格复现（34 款）",
+    "name": "柔和肖像｜Pro Neg.Std",
+    "file": "Fuji-Recreation/fuji-recreation-8b4f06eaeca6.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-70c4cab057f3",
+    "group": "富士风格复现（34 款）",
+    "name": "柔和色彩｜Astia",
+    "file": "Fuji-Recreation/fuji-recreation-70c4cab057f3.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-dbdfeccfe8e8",
+    "group": "富士风格复现（34 款）",
+    "name": "标准肖像｜Pro Neg.Hi",
+    "file": "Fuji-Recreation/fuji-recreation-dbdfeccfe8e8.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-ec9c71020fe8",
+    "group": "富士风格复现（34 款）",
+    "name": "标准色彩｜Provia.Std",
+    "file": "Fuji-Recreation/fuji-recreation-ec9c71020fe8.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-e94d931f12e9",
+    "group": "富士风格复现（34 款）",
+    "name": "标准黑白+红｜Mono+Red",
+    "file": "Fuji-Recreation/fuji-recreation-e94d931f12e9.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-b1d998192247",
+    "group": "富士风格复现（34 款）",
+    "name": "标准黑白+绿｜Mono+Green",
+    "file": "Fuji-Recreation/fuji-recreation-b1d998192247.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-ee0a3821a8b5",
+    "group": "富士风格复现（34 款）",
+    "name": "标准黑白+黄｜Mono+Yellow",
+    "file": "Fuji-Recreation/fuji-recreation-ee0a3821a8b5.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-5149a2497160",
+    "group": "富士风格复现（34 款）",
+    "name": "标准黑白｜Monochrome.Std",
+    "file": "Fuji-Recreation/fuji-recreation-5149a2497160.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-022632307398",
+    "group": "富士风格复现（34 款）",
+    "name": "漂白效果｜Eterna (Bleach)",
+    "file": "Fuji-Recreation/fuji-recreation-022632307398.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-14571aa7ea87",
+    "group": "富士风格复现（34 款）",
+    "name": "电影色调｜Eterna (LUTs+)",
+    "file": "Fuji-Recreation/fuji-recreation-14571aa7ea87.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-00086379bcb0",
+    "group": "富士风格复现（34 款）",
+    "name": "经典正片｜Classic Chrome",
+    "file": "Fuji-Recreation/fuji-recreation-00086379bcb0.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-da223c870bcb",
+    "group": "富士风格复现（34 款）",
+    "name": "经典负片｜Classic Neg",
+    "file": "Fuji-Recreation/fuji-recreation-da223c870bcb.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-4c609f75265a",
+    "group": "富士风格复现（34 款）",
+    "name": "鲜艳色彩｜Velvia",
+    "file": "Fuji-Recreation/fuji-recreation-4c609f75265a.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-965af6fa55c6",
+    "group": "富士风格复现（34 款）",
+    "name": "黑白胶片+红｜Acros+Red",
+    "file": "Fuji-Recreation/fuji-recreation-965af6fa55c6.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-3cd7dc0a9300",
+    "group": "富士风格复现（34 款）",
+    "name": "黑白胶片+绿｜Acros+Green",
+    "file": "Fuji-Recreation/fuji-recreation-3cd7dc0a9300.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-e48207c5a770",
+    "group": "富士风格复现（34 款）",
+    "name": "黑白胶片+黄｜Acros+Yellow",
+    "file": "Fuji-Recreation/fuji-recreation-e48207c5a770.cube",
+    "inputSpace": "rec709Gamma24"
+  },
+  {
+    "id": "fuji-recreation-571c3ca439b2",
+    "group": "富士风格复现（34 款）",
+    "name": "黑白胶片｜Acros.Std",
+    "file": "Fuji-Recreation/fuji-recreation-571c3ca439b2.cube",
+    "inputSpace": "rec709Gamma24"
+  }
+]
